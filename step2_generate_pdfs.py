@@ -446,7 +446,7 @@ def flatten_pages(tree, pages=None):
 def url_to_filename(url):
     """Convert a URL to a safe filename."""
     path = url.replace(ORIGIN, '').replace('https://', '').replace('http://', '')
-    return path.replace('/', '_').replace('?', '_').replace('#', '_').replace(' ', '_')[:80]
+    return path.replace('/', '_').replace('?', '_').replace('#', '_').replace(' ', '_')[:150]
 
 
 def generate_cover_pdf(output_path, total_pages):

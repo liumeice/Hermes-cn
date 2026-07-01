@@ -40,7 +40,7 @@ def flatten_pages_with_level(tree, pages=None):
 def url_to_filename(url):
     """Convert a URL to a safe filename (same as step2)."""
     path = url.replace(BASE_URL, '').replace('https://', '').replace('http://', '')
-    return path.replace('/', '_').replace('?', '_').replace('#', '_').replace(' ', '_')[:80]
+    return path.replace('/', '_').replace('?', '_').replace('#', '_').replace(' ', '_')[:150]
 
 
 def build_precise_toc(tree, page_start_map):
@@ -135,7 +135,7 @@ def main():
             except Exception:
                 pdf_page_counts[href] = 1
         else:
-            pdf_page_counts[href] = 1
+            pdf_page_counts[href] = 0  # Missing PDF contributes 0 pages
 
     # Calculate starting page for each webpage
     current_page = 2  # Page 1 is the cover
@@ -184,9 +184,16 @@ def main():
 
     print(f"    Merged {len(pdf_files)} PDFs total")
 
-    # Build and set TOC
+    # Build TOC first to know what page numbers it references
     print("  Building bookmark structure...")
-    toc = build_precise_toc(tree, page_start_map)
+    raw_toc = build_precise_toc(tree, page_start_map)
+
+    # Get actual page count to clamp TOC
+    actual_pages = output_pdf.page_count
+    toc = [entry for entry in raw_toc if entry[2] <= actual_pages]
+    clamped = len(raw_toc) - len(toc)
+    if clamped > 0:
+        print(f"  Clamped {clamped} TOC entries pointing beyond page {actual_pages}")
     print(f"  Bookmarks: {len(toc)} entries")
 
     # Apply TOC
