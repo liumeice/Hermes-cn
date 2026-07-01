@@ -1,0 +1,2156 @@
+{
+  "source": "https://hermes-agent.nousresearch.com/docs/zh-Hans/",
+  "root": "Hermes Agent Documentation (zh-Hans)",
+  "total_pages": 343,
+  "children": [
+    {
+      "title": "Hermes Agent 文档",
+      "href": "/docs/zh-Hans/",
+      "level": 1
+    },
+    {
+      "title": "用户故事与使用案例",
+      "href": "/docs/zh-Hans/user-stories",
+      "level": 1
+    },
+    {
+      "title": "Getting Started",
+      "href": "#",
+      "level": 1,
+      "children": [
+        {
+          "title": "快速入门",
+          "href": "/docs/zh-Hans/getting-started/quickstart",
+          "level": 2
+        },
+        {
+          "title": "安装",
+          "href": "/docs/zh-Hans/getting-started/installation",
+          "level": 2
+        },
+        {
+          "title": "Android / Termux",
+          "href": "/docs/zh-Hans/getting-started/termux",
+          "level": 2
+        },
+        {
+          "title": "Nix & NixOS 安装配置",
+          "href": "/docs/zh-Hans/getting-started/nix-setup",
+          "level": 2
+        },
+        {
+          "title": "更新与卸载",
+          "href": "/docs/zh-Hans/getting-started/updating",
+          "level": 2
+        },
+        {
+          "title": "学习路径",
+          "href": "/docs/zh-Hans/getting-started/learning-path",
+          "level": 2
+        }
+      ]
+    },
+    {
+      "title": "Using Hermes",
+      "href": "#",
+      "level": 1,
+      "children": [
+        {
+          "title": "CLI 界面",
+          "href": "/docs/zh-Hans/user-guide/cli",
+          "level": 2
+        },
+        {
+          "title": "TUI",
+          "href": "/docs/zh-Hans/user-guide/tui",
+          "level": 2
+        },
+        {
+          "title": "Desktop App",
+          "href": "/docs/zh-Hans/user-guide/desktop",
+          "level": 2
+        },
+        {
+          "title": "windows-native",
+          "href": "/docs/zh-Hans/user-guide/windows-native",
+          "level": 2
+        },
+        {
+          "title": "Windows (WSL2)",
+          "href": "/docs/zh-Hans/user-guide/windows-wsl-quickstart",
+          "level": 2
+        },
+        {
+          "title": "配置",
+          "href": "/docs/zh-Hans/user-guide/configuration",
+          "level": 2
+        },
+        {
+          "title": "Managed Scope",
+          "href": "/docs/zh-Hans/user-guide/managed-scope",
+          "level": 2
+        },
+        {
+          "title": "配置模型",
+          "href": "/docs/zh-Hans/user-guide/configuring-models",
+          "level": 2
+        },
+        {
+          "title": "Secrets",
+          "href": "#",
+          "level": 2,
+          "children": [
+            {
+              "title": "Secrets",
+              "href": "/docs/zh-Hans/user-guide/secrets/",
+              "level": 3
+            },
+            {
+              "title": "Bitwarden Secrets Manager",
+              "href": "/docs/zh-Hans/user-guide/secrets/bitwarden",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "title": "Sessions（会话）",
+          "href": "/docs/zh-Hans/user-guide/sessions",
+          "level": 2
+        },
+        {
+          "title": "Profiles：运行多个 Agent",
+          "href": "/docs/zh-Hans/user-guide/profiles",
+          "level": 2
+        },
+        {
+          "title": "Profile 分发：共享完整 Agent",
+          "href": "/docs/zh-Hans/user-guide/profile-distributions",
+          "level": 2
+        },
+        {
+          "title": "Running Many Gateways at Once",
+          "href": "/docs/zh-Hans/user-guide/multi-profile-gateways",
+          "level": 2
+        },
+        {
+          "title": "Git Worktrees",
+          "href": "/docs/zh-Hans/user-guide/git-worktrees",
+          "level": 2
+        },
+        {
+          "title": "Docker",
+          "href": "/docs/zh-Hans/user-guide/docker",
+          "level": 2
+        },
+        {
+          "title": "安全",
+          "href": "/docs/zh-Hans/user-guide/security",
+          "level": 2
+        },
+        {
+          "title": "Checkpoints & Rollback",
+          "href": "/docs/zh-Hans/user-guide/checkpoints-and-rollback",
+          "level": 2
+        }
+      ]
+    },
+    {
+      "title": "Features",
+      "href": "#",
+      "level": 1,
+      "children": [
+        {
+          "title": "概览",
+          "href": "/docs/zh-Hans/user-guide/features/overview",
+          "level": 2
+        },
+        {
+          "title": "Tool Gateway",
+          "href": "/docs/zh-Hans/user-guide/features/tool-gateway",
+          "level": 2
+        },
+        {
+          "title": "Core",
+          "href": "#",
+          "level": 2,
+          "children": [
+            {
+              "title": "工具与工具集",
+              "href": "/docs/zh-Hans/user-guide/features/tools",
+              "level": 3
+            },
+            {
+              "title": "Tool Search",
+              "href": "/docs/zh-Hans/user-guide/features/tool-search",
+              "level": 3
+            },
+            {
+              "title": "Skills 系统",
+              "href": "/docs/zh-Hans/user-guide/features/skills",
+              "level": 3
+            },
+            {
+              "title": "LSP — 语义诊断",
+              "href": "/docs/zh-Hans/user-guide/features/lsp",
+              "level": 3
+            },
+            {
+              "title": "Curator",
+              "href": "/docs/zh-Hans/user-guide/features/curator",
+              "level": 3
+            },
+            {
+              "title": "持久化记忆",
+              "href": "/docs/zh-Hans/user-guide/features/memory",
+              "level": 3
+            },
+            {
+              "title": "Memory Providers",
+              "href": "/docs/zh-Hans/user-guide/features/memory-providers",
+              "level": 3
+            },
+            {
+              "title": "Honcho Memory",
+              "href": "/docs/zh-Hans/user-guide/features/honcho",
+              "level": 3
+            },
+            {
+              "title": "上下文文件",
+              "href": "/docs/zh-Hans/user-guide/features/context-files",
+              "level": 3
+            },
+            {
+              "title": "Context References",
+              "href": "/docs/zh-Hans/user-guide/features/context-references",
+              "level": 3
+            },
+            {
+              "title": "Mixture of Agents",
+              "href": "/docs/zh-Hans/user-guide/features/mixture-of-agents",
+              "level": 3
+            },
+            {
+              "title": "个性与 SOUL.md",
+              "href": "/docs/zh-Hans/user-guide/features/personality",
+              "level": 3
+            },
+            {
+              "title": "皮肤与主题",
+              "href": "/docs/zh-Hans/user-guide/features/skins",
+              "level": 3
+            },
+            {
+              "title": "Plugins",
+              "href": "/docs/zh-Hans/user-guide/features/plugins",
+              "level": 3
+            },
+            {
+              "title": "内置插件",
+              "href": "/docs/zh-Hans/user-guide/features/built-in-plugins",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "title": "Automation",
+          "href": "#",
+          "level": 2,
+          "children": [
+            {
+              "title": "定时任务（Cron）",
+              "href": "/docs/zh-Hans/user-guide/features/cron",
+              "level": 3
+            },
+            {
+              "title": "Automation Blueprints Catalog",
+              "href": "/docs/zh-Hans/reference/automation-blueprints-catalog",
+              "level": 3
+            },
+            {
+              "title": "子智能体委派",
+              "href": "/docs/zh-Hans/user-guide/features/delegation",
+              "level": 3
+            },
+            {
+              "title": "Kanban（多 Agent 看板）",
+              "href": "/docs/zh-Hans/user-guide/features/kanban",
+              "level": 3
+            },
+            {
+              "title": "Codex App-Server 运行时",
+              "href": "/docs/zh-Hans/user-guide/features/codex-app-server-runtime",
+              "level": 3
+            },
+            {
+              "title": "Kanban 教程",
+              "href": "/docs/zh-Hans/user-guide/features/kanban-tutorial",
+              "level": 3
+            },
+            {
+              "title": "Kanban worker lanes（工作者通道）",
+              "href": "/docs/zh-Hans/user-guide/features/kanban-worker-lanes",
+              "level": 3
+            },
+            {
+              "title": "持久目标",
+              "href": "/docs/zh-Hans/user-guide/features/goals",
+              "level": 3
+            },
+            {
+              "title": "代码执行",
+              "href": "/docs/zh-Hans/user-guide/features/code-execution",
+              "level": 3
+            },
+            {
+              "title": "Event Hooks",
+              "href": "/docs/zh-Hans/user-guide/features/hooks",
+              "level": 3
+            },
+            {
+              "title": "批量处理",
+              "href": "/docs/zh-Hans/user-guide/features/batch-processing",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "title": "Media & Web",
+          "href": "#",
+          "level": 2,
+          "children": [
+            {
+              "title": "语音模式",
+              "href": "/docs/zh-Hans/user-guide/features/voice-mode",
+              "level": 3
+            },
+            {
+              "title": "Web Search",
+              "href": "/docs/zh-Hans/user-guide/features/web-search",
+              "level": 3
+            },
+            {
+              "title": "X (Twitter) 搜索",
+              "href": "/docs/zh-Hans/user-guide/features/x-search",
+              "level": 3
+            },
+            {
+              "title": "Browser",
+              "href": "/docs/zh-Hans/user-guide/features/browser",
+              "level": 3
+            },
+            {
+              "title": "电脑操控",
+              "href": "/docs/zh-Hans/user-guide/features/computer-use",
+              "level": 3
+            },
+            {
+              "title": "视觉与图像粘贴",
+              "href": "/docs/zh-Hans/user-guide/features/vision",
+              "level": 3
+            },
+            {
+              "title": "文生图",
+              "href": "/docs/zh-Hans/user-guide/features/image-generation",
+              "level": 3
+            },
+            {
+              "title": "Spotify",
+              "href": "/docs/zh-Hans/user-guide/features/spotify",
+              "level": 3
+            },
+            {
+              "title": "Pets (Petdex Mascots)",
+              "href": "/docs/zh-Hans/user-guide/features/pets",
+              "level": 3
+            },
+            {
+              "title": "语音与 TTS",
+              "href": "/docs/zh-Hans/user-guide/features/tts",
+              "level": 3
+            },
+            {
+              "title": "可交付成果模式",
+              "href": "/docs/zh-Hans/user-guide/features/deliverable-mode",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "title": "Management",
+          "href": "#",
+          "level": 2,
+          "children": [
+            {
+              "title": "Web Dashboard",
+              "href": "/docs/zh-Hans/user-guide/features/web-dashboard",
+              "level": 3
+            },
+            {
+              "title": "扩展 Dashboard",
+              "href": "/docs/zh-Hans/user-guide/features/extending-the-dashboard",
+              "level": 3
+            },
+            {
+              "title": "API 服务器",
+              "href": "/docs/zh-Hans/user-guide/features/api-server",
+              "level": 3
+            },
+            {
+              "title": "订阅代理",
+              "href": "/docs/zh-Hans/user-guide/features/subscription-proxy",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "title": "Skills",
+          "href": "#",
+          "level": 2,
+          "children": [
+            {
+              "title": "内置技能目录",
+              "href": "/docs/zh-Hans/reference/skills-catalog",
+              "level": 3
+            },
+            {
+              "title": "可选技能目录",
+              "href": "/docs/zh-Hans/reference/optional-skills-catalog",
+              "level": 3
+            },
+            {
+              "title": "Bundled",
+              "href": "#",
+              "level": 3,
+              "children": [
+                {
+                  "title": "apple",
+                  "href": "#",
+                  "level": 4,
+                  "children": [
+                    {
+                      "title": "Apple Notes",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/apple/apple-apple-notes",
+                      "level": 5
+                    },
+                    {
+                      "title": "Apple Reminders",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/apple/apple-apple-reminders",
+                      "level": 5
+                    },
+                    {
+                      "title": "Findmy",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/apple/apple-findmy",
+                      "level": 5
+                    },
+                    {
+                      "title": "Imessage",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/apple/apple-imessage",
+                      "level": 5
+                    }
+                  ]
+                },
+                {
+                  "title": "autonomous-ai-agents",
+                  "href": "#",
+                  "level": 4,
+                  "children": [
+                    {
+                      "title": "Claude Code",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/autonomous-ai-agents/autonomous-ai-agents-claude-code",
+                      "level": 5
+                    },
+                    {
+                      "title": "Codex",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/autonomous-ai-agents/autonomous-ai-agents-codex",
+                      "level": 5
+                    },
+                    {
+                      "title": "Hermes Agent",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/autonomous-ai-agents/autonomous-ai-agents-hermes-agent",
+                      "level": 5
+                    },
+                    {
+                      "title": "Opencode",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/autonomous-ai-agents/autonomous-ai-agents-opencode",
+                      "level": 5
+                    }
+                  ]
+                },
+                {
+                  "title": "computer-use",
+                  "href": "#",
+                  "level": 4,
+                  "children": [
+                    {
+                      "title": "Computer Use",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/computer-use/computer-use-computer-use",
+                      "level": 5
+                    }
+                  ]
+                },
+                {
+                  "title": "creative",
+                  "href": "#",
+                  "level": 4,
+                  "children": [
+                    {
+                      "title": "Architecture Diagram",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/creative/creative-architecture-diagram",
+                      "level": 5
+                    },
+                    {
+                      "title": "Ascii Art",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/creative/creative-ascii-art",
+                      "level": 5
+                    },
+                    {
+                      "title": "Ascii Video",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/creative/creative-ascii-video",
+                      "level": 5
+                    },
+                    {
+                      "title": "Baoyu Infographic",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/creative/creative-baoyu-infographic",
+                      "level": 5
+                    },
+                    {
+                      "title": "Claude Design",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/creative/creative-claude-design",
+                      "level": 5
+                    },
+                    {
+                      "title": "Comfyui",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/creative/creative-comfyui",
+                      "level": 5
+                    },
+                    {
+                      "title": "Design Md",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/creative/creative-design-md",
+                      "level": 5
+                    },
+                    {
+                      "title": "Excalidraw",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/creative/creative-excalidraw",
+                      "level": 5
+                    },
+                    {
+                      "title": "Humanizer",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/creative/creative-humanizer",
+                      "level": 5
+                    },
+                    {
+                      "title": "Manim Video",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/creative/creative-manim-video",
+                      "level": 5
+                    },
+                    {
+                      "title": "P5Js",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/creative/creative-p5js",
+                      "level": 5
+                    },
+                    {
+                      "title": "流行网页设计",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/creative/creative-popular-web-designs",
+                      "level": 5
+                    },
+                    {
+                      "title": "Pretext",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/creative/creative-pretext",
+                      "level": 5
+                    },
+                    {
+                      "title": "Sketch",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/creative/creative-sketch",
+                      "level": 5
+                    },
+                    {
+                      "title": "Songwriting And Ai Music",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/creative/creative-songwriting-and-ai-music",
+                      "level": 5
+                    },
+                    {
+                      "title": "Touchdesigner Mcp",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/creative/creative-touchdesigner-mcp",
+                      "level": 5
+                    }
+                  ]
+                },
+                {
+                  "title": "data-science",
+                  "href": "#",
+                  "level": 4,
+                  "children": [
+                    {
+                      "title": "Jupyter Live Kernel",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/data-science/data-science-jupyter-live-kernel",
+                      "level": 5
+                    }
+                  ]
+                },
+                {
+                  "title": "dogfood",
+                  "href": "#",
+                  "level": 4,
+                  "children": [
+                    {
+                      "title": "Dogfood",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/dogfood/dogfood-dogfood",
+                      "level": 5
+                    }
+                  ]
+                },
+                {
+                  "title": "email",
+                  "href": "#",
+                  "level": 4,
+                  "children": [
+                    {
+                      "title": "Himalaya",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/email/email-himalaya",
+                      "level": 5
+                    }
+                  ]
+                },
+                {
+                  "title": "github",
+                  "href": "#",
+                  "level": 4,
+                  "children": [
+                    {
+                      "title": "代码库检查",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/github/github-codebase-inspection",
+                      "level": 5
+                    },
+                    {
+                      "title": "Github Auth",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/github/github-github-auth",
+                      "level": 5
+                    },
+                    {
+                      "title": "Github Code Review",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/github/github-github-code-review",
+                      "level": 5
+                    },
+                    {
+                      "title": "Github Issues",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/github/github-github-issues",
+                      "level": 5
+                    },
+                    {
+                      "title": "Github Pr Workflow",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/github/github-github-pr-workflow",
+                      "level": 5
+                    },
+                    {
+                      "title": "Github 仓库管理",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/github/github-github-repo-management",
+                      "level": 5
+                    }
+                  ]
+                },
+                {
+                  "title": "media",
+                  "href": "#",
+                  "level": 4,
+                  "children": [
+                    {
+                      "title": "Gif Search",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/media/media-gif-search",
+                      "level": 5
+                    },
+                    {
+                      "title": "Heartmula",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/media/media-heartmula",
+                      "level": 5
+                    },
+                    {
+                      "title": "Songsee",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/media/media-songsee",
+                      "level": 5
+                    },
+                    {
+                      "title": "Youtube Content",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/media/media-youtube-content",
+                      "level": 5
+                    }
+                  ]
+                },
+                {
+                  "title": "mlops",
+                  "href": "#",
+                  "level": 4,
+                  "children": [
+                    {
+                      "title": "Audiocraft 音频生成",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/mlops/mlops-models-audiocraft",
+                      "level": 5
+                    },
+                    {
+                      "title": "Huggingface Hub",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/mlops/mlops-huggingface-hub",
+                      "level": 5
+                    },
+                    {
+                      "title": "Llama Cpp",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/mlops/mlops-inference-llama-cpp",
+                      "level": 5
+                    },
+                    {
+                      "title": "Evaluating Llms Harness",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/mlops/mlops-evaluation-lm-evaluation-harness",
+                      "level": 5
+                    },
+                    {
+                      "title": "Segment Anything Model",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/mlops/mlops-models-segment-anything",
+                      "level": 5
+                    },
+                    {
+                      "title": "Serving Llms Vllm",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/mlops/mlops-inference-vllm",
+                      "level": 5
+                    },
+                    {
+                      "title": "Weights And Biases",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/mlops/mlops-evaluation-weights-and-biases",
+                      "level": 5
+                    }
+                  ]
+                },
+                {
+                  "title": "note-taking",
+                  "href": "#",
+                  "level": 4,
+                  "children": [
+                    {
+                      "title": "Obsidian",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/note-taking/note-taking-obsidian",
+                      "level": 5
+                    }
+                  ]
+                },
+                {
+                  "title": "productivity",
+                  "href": "#",
+                  "level": 4,
+                  "children": [
+                    {
+                      "title": "Airtable",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/productivity/productivity-airtable",
+                      "level": 5
+                    },
+                    {
+                      "title": "Google Workspace",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/productivity/productivity-google-workspace",
+                      "level": 5
+                    },
+                    {
+                      "title": "Maps",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/productivity/productivity-maps",
+                      "level": 5
+                    },
+                    {
+                      "title": "Nano Pdf",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/productivity/productivity-nano-pdf",
+                      "level": 5
+                    },
+                    {
+                      "title": "Notion",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/productivity/productivity-notion",
+                      "level": 5
+                    },
+                    {
+                      "title": "Ocr And Documents",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/productivity/productivity-ocr-and-documents",
+                      "level": 5
+                    },
+                    {
+                      "title": "Petdex",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/productivity/productivity-petdex",
+                      "level": 5
+                    },
+                    {
+                      "title": "Powerpoint",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/productivity/productivity-powerpoint",
+                      "level": 5
+                    },
+                    {
+                      "title": "Teams Meeting Pipeline",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/productivity/productivity-teams-meeting-pipeline",
+                      "level": 5
+                    }
+                  ]
+                },
+                {
+                  "title": "research",
+                  "href": "#",
+                  "level": 4,
+                  "children": [
+                    {
+                      "title": "Arxiv",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/research/research-arxiv",
+                      "level": 5
+                    },
+                    {
+                      "title": "Blogwatcher",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/research/research-blogwatcher",
+                      "level": 5
+                    },
+                    {
+                      "title": "Llm Wiki",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/research/research-llm-wiki",
+                      "level": 5
+                    },
+                    {
+                      "title": "Polymarket",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/research/research-polymarket",
+                      "level": 5
+                    },
+                    {
+                      "title": "研究论文写作",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/research/research-research-paper-writing",
+                      "level": 5
+                    }
+                  ]
+                },
+                {
+                  "title": "smart-home",
+                  "href": "#",
+                  "level": 4,
+                  "children": [
+                    {
+                      "title": "Openhue",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/smart-home/smart-home-openhue",
+                      "level": 5
+                    }
+                  ]
+                },
+                {
+                  "title": "social-media",
+                  "href": "#",
+                  "level": 4,
+                  "children": [
+                    {
+                      "title": "Xurl",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/social-media/social-media-xurl",
+                      "level": 5
+                    }
+                  ]
+                },
+                {
+                  "title": "software-development",
+                  "href": "#",
+                  "level": 4,
+                  "children": [
+                    {
+                      "title": "Hermes Agent Skill 编写",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/software-development/software-development-hermes-agent-skill-authoring",
+                      "level": 5
+                    },
+                    {
+                      "title": "Node Inspect 调试器",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/software-development/software-development-node-inspect-debugger",
+                      "level": 5
+                    },
+                    {
+                      "title": "Plan",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/software-development/software-development-plan",
+                      "level": 5
+                    },
+                    {
+                      "title": "Python Debugpy",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/software-development/software-development-python-debugpy",
+                      "level": 5
+                    },
+                    {
+                      "title": "请求代码审查",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/software-development/software-development-requesting-code-review",
+                      "level": 5
+                    },
+                    {
+                      "title": "Simplify Code",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/software-development/software-development-simplify-code",
+                      "level": 5
+                    },
+                    {
+                      "title": "Spike",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/software-development/software-development-spike",
+                      "level": 5
+                    },
+                    {
+                      "title": "系统化调试",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/software-development/software-development-systematic-debugging",
+                      "level": 5
+                    },
+                    {
+                      "title": "测试驱动开发",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/software-development/software-development-test-driven-development",
+                      "level": 5
+                    }
+                  ]
+                },
+                {
+                  "title": "yuanbao",
+                  "href": "#",
+                  "level": 4,
+                  "children": [
+                    {
+                      "title": "Yuanbao",
+                      "href": "/docs/zh-Hans/user-guide/skills/bundled/yuanbao/yuanbao-yuanbao",
+                      "level": 5
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Optional",
+              "href": "#",
+              "level": 3,
+              "children": [
+                {
+                  "title": "autonomous-ai-agents",
+                  "href": "#",
+                  "level": 4,
+                  "children": [
+                    {
+                      "title": "Antigravity Cli",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/autonomous-ai-agents/autonomous-ai-agents-antigravity-cli",
+                      "level": 5
+                    },
+                    {
+                      "title": "Blackbox",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/autonomous-ai-agents/autonomous-ai-agents-blackbox",
+                      "level": 5
+                    },
+                    {
+                      "title": "Grok",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/autonomous-ai-agents/autonomous-ai-agents-grok",
+                      "level": 5
+                    },
+                    {
+                      "title": "Honcho",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/autonomous-ai-agents/autonomous-ai-agents-honcho",
+                      "level": 5
+                    },
+                    {
+                      "title": "Openhands",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/autonomous-ai-agents/autonomous-ai-agents-openhands",
+                      "level": 5
+                    }
+                  ]
+                },
+                {
+                  "title": "blockchain",
+                  "href": "#",
+                  "level": 4,
+                  "children": [
+                    {
+                      "title": "Evm",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/blockchain/blockchain-evm",
+                      "level": 5
+                    },
+                    {
+                      "title": "Hyperliquid",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/blockchain/blockchain-hyperliquid",
+                      "level": 5
+                    },
+                    {
+                      "title": "Solana",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/blockchain/blockchain-solana",
+                      "level": 5
+                    }
+                  ]
+                },
+                {
+                  "title": "communication",
+                  "href": "#",
+                  "level": 4,
+                  "children": [
+                    {
+                      "title": "One Three One Rule",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/communication/communication-one-three-one-rule",
+                      "level": 5
+                    }
+                  ]
+                },
+                {
+                  "title": "creative",
+                  "href": "#",
+                  "level": 4,
+                  "children": [
+                    {
+                      "title": "Baoyu Article Illustrator",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/creative/creative-baoyu-article-illustrator",
+                      "level": 5
+                    },
+                    {
+                      "title": "Baoyu Comic",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/creative/creative-baoyu-comic",
+                      "level": 5
+                    },
+                    {
+                      "title": "Blender Mcp",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/creative/creative-blender-mcp",
+                      "level": 5
+                    },
+                    {
+                      "title": "概念图",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/creative/creative-concept-diagrams",
+                      "level": 5
+                    },
+                    {
+                      "title": "Creative Ideation",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/creative/creative-creative-ideation",
+                      "level": 5
+                    },
+                    {
+                      "title": "Hyperframes",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/creative/creative-hyperframes",
+                      "level": 5
+                    },
+                    {
+                      "title": "Kanban Video Orchestrator",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/creative/creative-kanban-video-orchestrator",
+                      "level": 5
+                    },
+                    {
+                      "title": "Meme Generation",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/creative/creative-meme-generation",
+                      "level": 5
+                    },
+                    {
+                      "title": "Pixel Art",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/creative/creative-pixel-art",
+                      "level": 5
+                    }
+                  ]
+                },
+                {
+                  "title": "devops",
+                  "href": "#",
+                  "level": 4,
+                  "children": [
+                    {
+                      "title": "Inference Sh Cli",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/devops/devops-cli",
+                      "level": 5
+                    },
+                    {
+                      "title": "Docker 管理",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/devops/devops-docker-management",
+                      "level": 5
+                    },
+                    {
+                      "title": "Hermes S6 Container Supervision",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/devops/devops-hermes-s6-container-supervision",
+                      "level": 5
+                    },
+                    {
+                      "title": "Pinggy Tunnel",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/devops/devops-pinggy-tunnel",
+                      "level": 5
+                    },
+                    {
+                      "title": "Watchers",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/devops/devops-watchers",
+                      "level": 5
+                    }
+                  ]
+                },
+                {
+                  "title": "dogfood",
+                  "href": "#",
+                  "level": 4,
+                  "children": [
+                    {
+                      "title": "对抗性 UX 测试",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/dogfood/dogfood-adversarial-ux-test",
+                      "level": 5
+                    }
+                  ]
+                },
+                {
+                  "title": "email",
+                  "href": "#",
+                  "level": 4,
+                  "children": [
+                    {
+                      "title": "Agentmail",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/email/email-agentmail",
+                      "level": 5
+                    }
+                  ]
+                },
+                {
+                  "title": "finance",
+                  "href": "#",
+                  "level": 4,
+                  "children": [
+                    {
+                      "title": "三表模型",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/finance/finance-3-statement-model",
+                      "level": 5
+                    },
+                    {
+                      "title": "可比公司分析",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/finance/finance-comps-analysis",
+                      "level": 5
+                    },
+                    {
+                      "title": "Dcf Model",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/finance/finance-dcf-model",
+                      "level": 5
+                    },
+                    {
+                      "title": "Excel Author",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/finance/finance-excel-author",
+                      "level": 5
+                    },
+                    {
+                      "title": "Lbo Model",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/finance/finance-lbo-model",
+                      "level": 5
+                    },
+                    {
+                      "title": "Merger Model",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/finance/finance-merger-model",
+                      "level": 5
+                    },
+                    {
+                      "title": "Pptx Author",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/finance/finance-pptx-author",
+                      "level": 5
+                    },
+                    {
+                      "title": "Stocks",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/finance/finance-stocks",
+                      "level": 5
+                    }
+                  ]
+                },
+                {
+                  "title": "gaming",
+                  "href": "#",
+                  "level": 4,
+                  "children": [
+                    {
+                      "title": "Minecraft Modpack Server",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/gaming/gaming-minecraft-modpack-server",
+                      "level": 5
+                    },
+                    {
+                      "title": "Pokemon Player",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/gaming/gaming-pokemon-player",
+                      "level": 5
+                    }
+                  ]
+                },
+                {
+                  "title": "health",
+                  "href": "#",
+                  "level": 4,
+                  "children": [
+                    {
+                      "title": "健身营养",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/health/health-fitness-nutrition",
+                      "level": 5
+                    },
+                    {
+                      "title": "Neuroskill Bci",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/health/health-neuroskill-bci",
+                      "level": 5
+                    }
+                  ]
+                },
+                {
+                  "title": "mcp",
+                  "href": "#",
+                  "level": 4,
+                  "children": [
+                    {
+                      "title": "Fastmcp",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/mcp/mcp-fastmcp",
+                      "level": 5
+                    },
+                    {
+                      "title": "Mcporter",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/mcp/mcp-mcporter",
+                      "level": 5
+                    }
+                  ]
+                },
+                {
+                  "title": "migration",
+                  "href": "#",
+                  "level": 4,
+                  "children": [
+                    {
+                      "title": "Openclaw Migration",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/migration/migration-openclaw-migration",
+                      "level": 5
+                    }
+                  ]
+                },
+                {
+                  "title": "mlops",
+                  "href": "#",
+                  "level": 4,
+                  "children": [
+                    {
+                      "title": "Huggingface Accelerate",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/mlops/mlops-accelerate",
+                      "level": 5
+                    },
+                    {
+                      "title": "Axolotl",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/mlops/mlops-training-axolotl",
+                      "level": 5
+                    },
+                    {
+                      "title": "Chroma",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/mlops/mlops-chroma",
+                      "level": 5
+                    },
+                    {
+                      "title": "Clip",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/mlops/mlops-clip",
+                      "level": 5
+                    },
+                    {
+                      "title": "Dspy",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/mlops/mlops-research-dspy",
+                      "level": 5
+                    },
+                    {
+                      "title": "Faiss",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/mlops/mlops-faiss",
+                      "level": 5
+                    },
+                    {
+                      "title": "优化注意力 Flash",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/mlops/mlops-flash-attention",
+                      "level": 5
+                    },
+                    {
+                      "title": "Guidance",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/mlops/mlops-guidance",
+                      "level": 5
+                    },
+                    {
+                      "title": "Huggingface Tokenizers",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/mlops/mlops-huggingface-tokenizers",
+                      "level": 5
+                    },
+                    {
+                      "title": "Instructor",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/mlops/mlops-instructor",
+                      "level": 5
+                    },
+                    {
+                      "title": "Lambda Labs Gpu Cloud",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/mlops/mlops-lambda-labs",
+                      "level": 5
+                    },
+                    {
+                      "title": "Llava",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/mlops/mlops-llava",
+                      "level": 5
+                    },
+                    {
+                      "title": "Modal Serverless Gpu",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/mlops/mlops-modal",
+                      "level": 5
+                    },
+                    {
+                      "title": "Nemo Curator",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/mlops/mlops-nemo-curator",
+                      "level": 5
+                    },
+                    {
+                      "title": "Obliteratus",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/mlops/mlops-obliteratus",
+                      "level": 5
+                    },
+                    {
+                      "title": "Outlines",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/mlops/mlops-inference-outlines",
+                      "level": 5
+                    },
+                    {
+                      "title": "Peft Fine Tuning",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/mlops/mlops-peft",
+                      "level": 5
+                    },
+                    {
+                      "title": "Pinecone",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/mlops/mlops-pinecone",
+                      "level": 5
+                    },
+                    {
+                      "title": "Pytorch Fsdp",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/mlops/mlops-pytorch-fsdp",
+                      "level": 5
+                    },
+                    {
+                      "title": "Pytorch Lightning",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/mlops/mlops-pytorch-lightning",
+                      "level": 5
+                    },
+                    {
+                      "title": "Qdrant Vector Search",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/mlops/mlops-qdrant",
+                      "level": 5
+                    },
+                    {
+                      "title": "稀疏自编码器训练",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/mlops/mlops-saelens",
+                      "level": 5
+                    },
+                    {
+                      "title": "Simpo 训练",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/mlops/mlops-simpo",
+                      "level": 5
+                    },
+                    {
+                      "title": "Slime Rl Training",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/mlops/mlops-slime",
+                      "level": 5
+                    },
+                    {
+                      "title": "Stable Diffusion 图像生成",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/mlops/mlops-stable-diffusion",
+                      "level": 5
+                    },
+                    {
+                      "title": "Tensorrt Llm",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/mlops/mlops-tensorrt-llm",
+                      "level": 5
+                    },
+                    {
+                      "title": "Distributed Llm Pretraining Torchtitan",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/mlops/mlops-torchtitan",
+                      "level": 5
+                    },
+                    {
+                      "title": "使用 TRL 进行微调",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/mlops/mlops-training-trl-fine-tuning",
+                      "level": 5
+                    },
+                    {
+                      "title": "Unsloth",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/mlops/mlops-training-unsloth",
+                      "level": 5
+                    },
+                    {
+                      "title": "Whisper",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/mlops/mlops-whisper",
+                      "level": 5
+                    }
+                  ]
+                },
+                {
+                  "title": "payments",
+                  "href": "#",
+                  "level": 4,
+                  "children": [
+                    {
+                      "title": "Mpp Agent",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/payments/payments-mpp-agent",
+                      "level": 5
+                    },
+                    {
+                      "title": "Stripe Link Cli",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/payments/payments-stripe-link-cli",
+                      "level": 5
+                    },
+                    {
+                      "title": "Stripe Projects",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/payments/payments-stripe-projects",
+                      "level": 5
+                    }
+                  ]
+                },
+                {
+                  "title": "productivity",
+                  "href": "#",
+                  "level": 4,
+                  "children": [
+                    {
+                      "title": "Canvas",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/productivity/productivity-canvas",
+                      "level": 5
+                    },
+                    {
+                      "title": "Here.Now",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/productivity/productivity-here-now",
+                      "level": 5
+                    },
+                    {
+                      "title": "Memento Flashcards",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/productivity/productivity-memento-flashcards",
+                      "level": 5
+                    },
+                    {
+                      "title": "Shop",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/productivity/productivity-shop",
+                      "level": 5
+                    },
+                    {
+                      "title": "Shopify",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/productivity/productivity-shopify",
+                      "level": 5
+                    },
+                    {
+                      "title": "Siyuan",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/productivity/productivity-siyuan",
+                      "level": 5
+                    },
+                    {
+                      "title": "Telephony",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/productivity/productivity-telephony",
+                      "level": 5
+                    }
+                  ]
+                },
+                {
+                  "title": "research",
+                  "href": "#",
+                  "level": 4,
+                  "children": [
+                    {
+                      "title": "生物信息学",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/research/research-bioinformatics",
+                      "level": 5
+                    },
+                    {
+                      "title": "Darwinian Evolver",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/research/research-darwinian-evolver",
+                      "level": 5
+                    },
+                    {
+                      "title": "Domain Intel",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/research/research-domain-intel",
+                      "level": 5
+                    },
+                    {
+                      "title": "Drug Discovery",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/research/research-drug-discovery",
+                      "level": 5
+                    },
+                    {
+                      "title": "Duckduckgo Search",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/research/research-duckduckgo-search",
+                      "level": 5
+                    },
+                    {
+                      "title": "Gitnexus Explorer",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/research/research-gitnexus-explorer",
+                      "level": 5
+                    },
+                    {
+                      "title": "Osint Investigation",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/research/research-osint-investigation",
+                      "level": 5
+                    },
+                    {
+                      "title": "Parallel Cli",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/research/research-parallel-cli",
+                      "level": 5
+                    },
+                    {
+                      "title": "Qmd",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/research/research-qmd",
+                      "level": 5
+                    },
+                    {
+                      "title": "Scrapling",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/research/research-scrapling",
+                      "level": 5
+                    },
+                    {
+                      "title": "Searxng Search",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/research/research-searxng-search",
+                      "level": 5
+                    }
+                  ]
+                },
+                {
+                  "title": "security",
+                  "href": "#",
+                  "level": 4,
+                  "children": [
+                    {
+                      "title": "1Password",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/security/security-1password",
+                      "level": 5
+                    },
+                    {
+                      "title": "Godmode",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/security/security-godmode",
+                      "level": 5
+                    },
+                    {
+                      "title": "Oss Forensics",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/security/security-oss-forensics",
+                      "level": 5
+                    },
+                    {
+                      "title": "Sherlock",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/security/security-sherlock",
+                      "level": 5
+                    },
+                    {
+                      "title": "Web Pentest",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/security/security-web-pentest",
+                      "level": 5
+                    }
+                  ]
+                },
+                {
+                  "title": "software-development",
+                  "href": "#",
+                  "level": 4,
+                  "children": [
+                    {
+                      "title": "Code Wiki",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/software-development/software-development-code-wiki",
+                      "level": 5
+                    },
+                    {
+                      "title": "Rest Graphql Debug",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/software-development/software-development-rest-graphql-debug",
+                      "level": 5
+                    },
+                    {
+                      "title": "Subagent Driven Development",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/software-development/software-development-subagent-driven-development",
+                      "level": 5
+                    }
+                  ]
+                },
+                {
+                  "title": "web-development",
+                  "href": "#",
+                  "level": 4,
+                  "children": [
+                    {
+                      "title": "Cloudflare Temporary Deploy",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/web-development/web-development-cloudflare-temporary-deploy",
+                      "level": 5
+                    },
+                    {
+                      "title": "Page Agent",
+                      "href": "/docs/zh-Hans/user-guide/skills/optional/web-development/web-development-page-agent",
+                      "level": 5
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Messaging Platforms",
+      "href": "#",
+      "level": 1,
+      "children": [
+        {
+          "title": "消息网关",
+          "href": "/docs/zh-Hans/user-guide/messaging/",
+          "level": 2
+        },
+        {
+          "title": "Popular",
+          "href": "#",
+          "level": 2,
+          "children": [
+            {
+              "title": "Telegram",
+              "href": "/docs/zh-Hans/user-guide/messaging/telegram",
+              "level": 3
+            },
+            {
+              "title": "Discord",
+              "href": "/docs/zh-Hans/user-guide/messaging/discord",
+              "level": 3
+            },
+            {
+              "title": "Slack",
+              "href": "/docs/zh-Hans/user-guide/messaging/slack",
+              "level": 3
+            },
+            {
+              "title": "WhatsApp",
+              "href": "/docs/zh-Hans/user-guide/messaging/whatsapp",
+              "level": 3
+            },
+            {
+              "title": "WhatsApp Business (Cloud API)",
+              "href": "/docs/zh-Hans/user-guide/messaging/whatsapp-cloud",
+              "level": 3
+            },
+            {
+              "title": "Signal",
+              "href": "/docs/zh-Hans/user-guide/messaging/signal",
+              "level": 3
+            },
+            {
+              "title": "电子邮件",
+              "href": "/docs/zh-Hans/user-guide/messaging/email",
+              "level": 3
+            },
+            {
+              "title": "SMS (Twilio)",
+              "href": "/docs/zh-Hans/user-guide/messaging/sms",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "title": "Microsoft 365",
+          "href": "#",
+          "level": 2,
+          "children": [
+            {
+              "title": "Microsoft Teams",
+              "href": "/docs/zh-Hans/user-guide/messaging/teams",
+              "level": 3
+            },
+            {
+              "title": "Teams 会议",
+              "href": "/docs/zh-Hans/user-guide/messaging/teams-meetings",
+              "level": 3
+            },
+            {
+              "title": "Microsoft Graph Webhook 监听器",
+              "href": "/docs/zh-Hans/user-guide/messaging/msgraph-webhook",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "title": "Chinese platforms",
+          "href": "#",
+          "level": 2,
+          "children": [
+            {
+              "title": "DingTalk",
+              "href": "/docs/zh-Hans/user-guide/messaging/dingtalk",
+              "level": 3
+            },
+            {
+              "title": "飞书 / Lark",
+              "href": "/docs/zh-Hans/user-guide/messaging/feishu",
+              "level": 3
+            },
+            {
+              "title": "WeCom（企业微信）",
+              "href": "/docs/zh-Hans/user-guide/messaging/wecom",
+              "level": 3
+            },
+            {
+              "title": "WeCom 回调（自建应用）",
+              "href": "/docs/zh-Hans/user-guide/messaging/wecom-callback",
+              "level": 3
+            },
+            {
+              "title": "微信（Weixin）",
+              "href": "/docs/zh-Hans/user-guide/messaging/weixin",
+              "level": 3
+            },
+            {
+              "title": "QQ Bot",
+              "href": "/docs/zh-Hans/user-guide/messaging/qqbot",
+              "level": 3
+            },
+            {
+              "title": "Yuanbao",
+              "href": "/docs/zh-Hans/user-guide/messaging/yuanbao",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "title": "Other",
+          "href": "#",
+          "level": 2,
+          "children": [
+            {
+              "title": "Home Assistant",
+              "href": "/docs/zh-Hans/user-guide/messaging/homeassistant",
+              "level": 3
+            },
+            {
+              "title": "Mattermost",
+              "href": "/docs/zh-Hans/user-guide/messaging/mattermost",
+              "level": 3
+            },
+            {
+              "title": "Matrix",
+              "href": "/docs/zh-Hans/user-guide/messaging/matrix",
+              "level": 3
+            },
+            {
+              "title": "BlueBubbles（iMessage）",
+              "href": "/docs/zh-Hans/user-guide/messaging/bluebubbles",
+              "level": 3
+            },
+            {
+              "title": "Photon iMessage",
+              "href": "/docs/zh-Hans/user-guide/messaging/photon",
+              "level": 3
+            },
+            {
+              "title": "Google Chat",
+              "href": "/docs/zh-Hans/user-guide/messaging/google_chat",
+              "level": 3
+            },
+            {
+              "title": "LINE",
+              "href": "/docs/zh-Hans/user-guide/messaging/line",
+              "level": 3
+            },
+            {
+              "title": "SimpleX Chat",
+              "href": "/docs/zh-Hans/user-guide/messaging/simplex",
+              "level": 3
+            },
+            {
+              "title": "ntfy",
+              "href": "/docs/zh-Hans/user-guide/messaging/ntfy",
+              "level": 3
+            },
+            {
+              "title": "Open WebUI",
+              "href": "/docs/zh-Hans/user-guide/messaging/open-webui",
+              "level": 3
+            },
+            {
+              "title": "Webhooks",
+              "href": "/docs/zh-Hans/user-guide/messaging/webhooks",
+              "level": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Integrations",
+      "href": "#",
+      "level": 1,
+      "children": [
+        {
+          "title": "概览",
+          "href": "/docs/zh-Hans/integrations/",
+          "level": 2
+        },
+        {
+          "title": "Nous Portal",
+          "href": "/docs/zh-Hans/integrations/nous-portal",
+          "level": 2
+        },
+        {
+          "title": "AI 提供商",
+          "href": "/docs/zh-Hans/integrations/providers",
+          "level": 2
+        },
+        {
+          "title": "MCP（模型上下文协议）",
+          "href": "/docs/zh-Hans/user-guide/features/mcp",
+          "level": 2
+        },
+        {
+          "title": "ACP 编辑器集成",
+          "href": "/docs/zh-Hans/user-guide/features/acp",
+          "level": 2
+        },
+        {
+          "title": "Provider Routing",
+          "href": "/docs/zh-Hans/user-guide/features/provider-routing",
+          "level": 2
+        },
+        {
+          "title": "备用提供商",
+          "href": "/docs/zh-Hans/user-guide/features/fallback-providers",
+          "level": 2
+        },
+        {
+          "title": "凭证池",
+          "href": "/docs/zh-Hans/user-guide/features/credential-pools",
+          "level": 2
+        }
+      ]
+    },
+    {
+      "title": "Guides & Tutorials",
+      "href": "#",
+      "level": 1,
+      "children": [
+        {
+          "title": "Run Nemotron 3 Ultra free in Hermes Agent",
+          "href": "/docs/zh-Hans/guides/run-nemotron-3-ultra-free",
+          "level": 2
+        },
+        {
+          "title": "通过 Nous Portal 运行 Hermes Agent",
+          "href": "/docs/zh-Hans/guides/run-hermes-with-nous-portal",
+          "level": 2
+        },
+        {
+          "title": "技巧与最佳实践",
+          "href": "/docs/zh-Hans/guides/tips",
+          "level": 2
+        },
+        {
+          "title": "在 Mac 上运行本地 LLM",
+          "href": "/docs/zh-Hans/guides/local-llm-on-mac",
+          "level": 2
+        },
+        {
+          "title": "教程：每日简报机器人",
+          "href": "/docs/zh-Hans/guides/daily-briefing-bot",
+          "level": 2
+        },
+        {
+          "title": "教程：团队 Telegram 助手",
+          "href": "/docs/zh-Hans/guides/team-telegram-assistant",
+          "level": 2
+        },
+        {
+          "title": "将 Hermes 作为 Python 库使用",
+          "href": "/docs/zh-Hans/guides/python-library",
+          "level": 2
+        },
+        {
+          "title": "在 Hermes 中使用 MCP",
+          "href": "/docs/zh-Hans/guides/use-mcp-with-hermes",
+          "level": 2
+        },
+        {
+          "title": "在 Hermes 中使用 SOUL.md",
+          "href": "/docs/zh-Hans/guides/use-soul-with-hermes",
+          "level": 2
+        },
+        {
+          "title": "在 Hermes 中使用语音模式",
+          "href": "/docs/zh-Hans/guides/use-voice-mode-with-hermes",
+          "level": 2
+        },
+        {
+          "title": "Build a Plugin",
+          "href": "/docs/zh-Hans/guides/build-a-hermes-plugin",
+          "level": 2
+        },
+        {
+          "title": "用 Cron 自动化一切",
+          "href": "/docs/zh-Hans/guides/automate-with-cron",
+          "level": 2
+        },
+        {
+          "title": "纯脚本 Cron 任务（无 LLM）",
+          "href": "/docs/zh-Hans/guides/cron-script-only",
+          "level": 2
+        },
+        {
+          "title": "自动化蓝图",
+          "href": "/docs/zh-Hans/guides/automation-blueprints",
+          "level": 2
+        },
+        {
+          "title": "Cron 故障排查",
+          "href": "/docs/zh-Hans/guides/cron-troubleshooting",
+          "level": 2
+        },
+        {
+          "title": "使用 Skills",
+          "href": "/docs/zh-Hans/guides/work-with-skills",
+          "level": 2
+        },
+        {
+          "title": "委托与并行工作",
+          "href": "/docs/zh-Hans/guides/delegation-patterns",
+          "level": 2
+        },
+        {
+          "title": "教程：GitHub PR 审查 Agent",
+          "href": "/docs/zh-Hans/guides/github-pr-review-agent",
+          "level": 2
+        },
+        {
+          "title": "通过 Webhook 进行 GitHub PR 审查",
+          "href": "/docs/zh-Hans/guides/webhook-github-pr-review",
+          "level": 2
+        },
+        {
+          "title": "从 OpenClaw 迁移",
+          "href": "/docs/zh-Hans/guides/migrate-from-openclaw",
+          "level": 2
+        },
+        {
+          "title": "AWS Bedrock",
+          "href": "/docs/zh-Hans/guides/aws-bedrock",
+          "level": 2
+        },
+        {
+          "title": "Microsoft Foundry",
+          "href": "/docs/zh-Hans/guides/azure-foundry",
+          "level": 2
+        },
+        {
+          "title": "xAI Grok OAuth（SuperGrok / X Premium+）",
+          "href": "/docs/zh-Hans/guides/xai-grok-oauth",
+          "level": 2
+        },
+        {
+          "title": "SSH / 远程主机上的 OAuth",
+          "href": "/docs/zh-Hans/guides/oauth-over-ssh",
+          "level": 2
+        },
+        {
+          "title": "注册 Microsoft Graph 应用程序",
+          "href": "/docs/zh-Hans/guides/microsoft-graph-app-registration",
+          "level": 2
+        },
+        {
+          "title": "操作 Teams 会议流水线",
+          "href": "/docs/zh-Hans/guides/operate-teams-meeting-pipeline",
+          "level": 2
+        }
+      ]
+    },
+    {
+      "title": "Developer Guide",
+      "href": "#",
+      "level": 1,
+      "children": [
+        {
+          "title": "贡献指南",
+          "href": "/docs/zh-Hans/developer-guide/contributing",
+          "level": 2
+        },
+        {
+          "title": "Architecture",
+          "href": "#",
+          "level": 2,
+          "children": [
+            {
+              "title": "架构",
+              "href": "/docs/zh-Hans/developer-guide/architecture",
+              "level": 3
+            },
+            {
+              "title": "Agent Loop 内部机制",
+              "href": "/docs/zh-Hans/developer-guide/agent-loop",
+              "level": 3
+            },
+            {
+              "title": "Prompt 组装",
+              "href": "/docs/zh-Hans/developer-guide/prompt-assembly",
+              "level": 3
+            },
+            {
+              "title": "上下文压缩与缓存",
+              "href": "/docs/zh-Hans/developer-guide/context-compression-and-caching",
+              "level": 3
+            },
+            {
+              "title": "Gateway 内部机制",
+              "href": "/docs/zh-Hans/developer-guide/gateway-internals",
+              "level": 3
+            },
+            {
+              "title": "会话存储",
+              "href": "/docs/zh-Hans/developer-guide/session-storage",
+              "level": 3
+            },
+            {
+              "title": "Provider 运行时解析",
+              "href": "/docs/zh-Hans/developer-guide/provider-runtime",
+              "level": 3
+            },
+            {
+              "title": "程序化集成",
+              "href": "/docs/zh-Hans/developer-guide/programmatic-integration",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "title": "Extending",
+          "href": "#",
+          "level": 2,
+          "children": [
+            {
+              "title": "添加工具",
+              "href": "/docs/zh-Hans/developer-guide/adding-tools",
+              "level": 3
+            },
+            {
+              "title": "添加 Provider",
+              "href": "/docs/zh-Hans/developer-guide/adding-providers",
+              "level": 3
+            },
+            {
+              "title": "添加平台适配器",
+              "href": "/docs/zh-Hans/developer-guide/adding-platform-adapters",
+              "level": 3
+            },
+            {
+              "title": "Memory Provider 插件",
+              "href": "/docs/zh-Hans/developer-guide/memory-provider-plugin",
+              "level": 3
+            },
+            {
+              "title": "Context Engine 插件",
+              "href": "/docs/zh-Hans/developer-guide/context-engine-plugin",
+              "level": 3
+            },
+            {
+              "title": "模型提供商插件",
+              "href": "/docs/zh-Hans/developer-guide/model-provider-plugin",
+              "level": 3
+            },
+            {
+              "title": "图像生成 Provider 插件",
+              "href": "/docs/zh-Hans/developer-guide/image-gen-provider-plugin",
+              "level": 3
+            },
+            {
+              "title": "视频生成 Provider 插件",
+              "href": "/docs/zh-Hans/developer-guide/video-gen-provider-plugin",
+              "level": 3
+            },
+            {
+              "title": "网页搜索提供商插件",
+              "href": "/docs/zh-Hans/developer-guide/web-search-provider-plugin",
+              "level": 3
+            },
+            {
+              "title": "Plugin LLM 访问",
+              "href": "/docs/zh-Hans/developer-guide/plugin-llm-access",
+              "level": 3
+            },
+            {
+              "title": "创建 Skill",
+              "href": "/docs/zh-Hans/developer-guide/creating-skills",
+              "level": 3
+            },
+            {
+              "title": "扩展 CLI",
+              "href": "/docs/zh-Hans/developer-guide/extending-the-cli",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "title": "Internals",
+          "href": "#",
+          "level": 2,
+          "children": [
+            {
+              "title": "工具运行时",
+              "href": "/docs/zh-Hans/developer-guide/tools-runtime",
+              "level": 3
+            },
+            {
+              "title": "Browser CDP Supervisor — 设计文档",
+              "href": "/docs/zh-Hans/developer-guide/browser-supervisor",
+              "level": 3
+            },
+            {
+              "title": "ACP 内部机制",
+              "href": "/docs/zh-Hans/developer-guide/acp-internals",
+              "level": 3
+            },
+            {
+              "title": "Cron 内部机制",
+              "href": "/docs/zh-Hans/developer-guide/cron-internals",
+              "level": 3
+            },
+            {
+              "title": "轨迹格式",
+              "href": "/docs/zh-Hans/developer-guide/trajectory-format",
+              "level": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Reference",
+      "href": "#",
+      "level": 1,
+      "children": [
+        {
+          "title": "Command Reference",
+          "href": "#",
+          "level": 2,
+          "children": [
+            {
+              "title": "CLI 命令参考",
+              "href": "/docs/zh-Hans/reference/cli-commands",
+              "level": 3
+            },
+            {
+              "title": "斜杠命令参考",
+              "href": "/docs/zh-Hans/reference/slash-commands",
+              "level": 3
+            },
+            {
+              "title": "Profile 命令参考",
+              "href": "/docs/zh-Hans/reference/profile-commands",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "title": "Configuration Reference",
+          "href": "#",
+          "level": 2,
+          "children": [
+            {
+              "title": "环境变量",
+              "href": "/docs/zh-Hans/reference/environment-variables",
+              "level": 3
+            },
+            {
+              "title": "MCP 配置参考",
+              "href": "/docs/zh-Hans/reference/mcp-config-reference",
+              "level": 3
+            },
+            {
+              "title": "模型目录",
+              "href": "/docs/zh-Hans/reference/model-catalog",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "title": "Tools & Skills Reference",
+          "href": "#",
+          "level": 2,
+          "children": [
+            {
+              "title": "内置工具参考",
+              "href": "/docs/zh-Hans/reference/tools-reference",
+              "level": 3
+            },
+            {
+              "title": "工具集参考",
+              "href": "/docs/zh-Hans/reference/toolsets-reference",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "title": "常见问题与故障排查",
+          "href": "/docs/zh-Hans/reference/faq",
+          "level": 2
+        }
+      ]
+    }
+  ]
+}
