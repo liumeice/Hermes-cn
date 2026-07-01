@@ -2,5 +2,6 @@
 /sidebar.json
 /sidebar.md
 /temp
-/venv*.pyc
+/venv
+*.pyc
 __pycache__/
